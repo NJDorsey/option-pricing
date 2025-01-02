@@ -1,4 +1,5 @@
 ﻿# Option Pricing Calculator
+https://option-pricing-njdorsey.streamlit.app/
 
 #### 12/29/2024
 The Black-Scholes model is the principal model for pricing options. Originally developed for European options, it's versatility and computational simplicity despite it's stellar precision make it extremely applicable and still widely used in American options. The model takes five input parameters; spot price of the underlying asset, strike srice of the contract, the market implied volatility (IV) of the underlying, the risk-free interest rate, and the contract's time to maturity, to calculate the value of a Call or a Put option.
