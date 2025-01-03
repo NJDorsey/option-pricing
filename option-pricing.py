@@ -108,7 +108,7 @@ for i, S in enumerate(stock_prices):
     for j, vol in enumerate(vols):
         call_vals[i, j], put_vals[j, i] = black_scholes(S, heatmap_K, heatmap_T, heatmap_r, vol)
 
-#Round them because need to fit
+# Round them because need to fit
 stock_prices = np.round(stock_prices, 2)
 vols = np.round(vols, 2)
 
